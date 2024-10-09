@@ -29,5 +29,13 @@ echo
 echo "Muestro como quedo: "
 sudo fdisk -l $DISCO
 
+echo
+echo "Formateo particiones: "
 
+sudo mkfs.ext4 ${DISCO}1
+sudo mkfs.ext4 ${DISCO}5
+echo
 
+echo "Montaje PERSISTENTE"
+sudo mount ${DISCO}1 
+sudo mount ${DISCO}5
