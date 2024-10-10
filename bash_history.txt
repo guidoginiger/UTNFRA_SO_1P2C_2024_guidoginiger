@@ -1,0 +1,400 @@
+ls -la
+ls -la .ssh/
+ssh-keygen -t ed25519
+ls -l .ssh/
+cat .ssh/id_ed25519.pub 
+mkdir repogit
+cd repogit/
+git clone git@github.com:guidoginiger/UTNFRA_SO_1P2C_2024_guidoginiger.git
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/guidoginiger/UTNFRA_SO_1P2C_2024_guidoginiger.git
+ll
+sudo apt update && sudo apt install -y tree
+ll
+ls -la
+ls -la UTN-FRA_SO_Examenes/
+ls -la UTNFRA_SO_1P2C_2024_guidoginiger/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
+ls -la UTNFRA_SO_1P2C_2024_guidoginiger/
+cd UTNFRA_SO_1P2C_2024_guidoginiger/
+ll
+ll RTA_SCRIPT_Examen_20241007/
+cat RTA_SCRIPT_Examen_20241007/Punto_A.sh 
+sudo fdisk -l
+grep "10 GiB"
+ll
+sudo fdisk /dev/sdc -l
+git status
+git add .
+git commit -m "ADD: Agrego Estructura de examen"
+git config --global user.email "ginigerguido@gmail.com"
+git config --global user.name "guidoginiger"
+git commit -m "ADD: Agrego Estructura de examen"
+git push
+cd ..
+tree UTNFRA_SO_1P2C_2024_guidoginiger/
+cd ..
+pwd
+ll
+cd repogit/
+cd ..
+ll
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_guidoginiger/
+ls -la
+cd RTA_SCRIPT_Examen_20241007/
+ll
+cd ../
+sudo mkdir -p /Examenes-UTN/{alumno_1/{parcial_1,parcial_2,parcial_3},alumno_2/{parcial_1,parcial_2,parcial_3},alumno_3/{parcial_1,parcial_2,parcial_3},profesores}
+echo $?
+tree /Examenes-UTN/
+cd repogit/
+git status
+cd UTNFRA_SO_1P2C_2024_guidoginiger/
+git status
+ll
+cd RTA_SCRIPT_Examen_20241007/
+ll
+vim /repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+cd ../
+pwd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+cat /repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_A.sh
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_guidoginiger/
+ll
+git status
+git add .
+git commit -m "ADD: Resuelto Punto_A"
+git push
+cd ../
+pwd
+ls -la
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+ls -la
+cd RTA_SCRIPT_Examen_20241007/
+ls -la
+chmod 775 Punto_A.sh
+echo $?
+ls -l
+./Punto_A.sh
+vim Punto_A.sh
+./Punto_A.sh
+cd ../
+chmod 775 repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/*
+echo $?
+ls -l repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+ll
+git status
+git add .
+git commit -m "FEAT: Modifico acceso a los permisos de ejecucion en los scripts"
+git push
+cd ../
+pwd
+sudo fdisk -l
+sudo fdisk /dev/sdc -l
+sudo fdisk /dev/sdc
+sudo fdisk /dev/sdc -l
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}'
+sudo fdisk -l
+sudo fdisk -l |grep "10 GiB"
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}'
+sudo fdisk -l |grep "10 GiB" | awk '{print $1}'
+sudo fdisk -l |grep "10 GiB" | awk '{print $0}'
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}'
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}' | awk -F ':'
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}'
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+sudo fdisk -l |grep "10 GiB" | awk '{print $2}' | sed 's/://g'
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Agrego particion de disco 10 GiB"
+git push
+cd
+pwd
+mkfs --help
+man mkfs
+man 8 mkfs
+man man
+man sudo
+man -k "mkfs"
+man -k mkfs.ext4
+man -f mkfs.ext4
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+ll
+cd RTA_SCRIPT_Examen_20241007/
+ll
+git status
+git add .
+git commit -m "ADD: Empiezo con Montaje Persistente"
+git push
+cd
+history
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Agrego Montaje Persistente."
+git push
+ll
+vim Punto_C.sh 
+man passwd
+cd
+pwd
+sudo grep -E 'vagrant' /etc/shadow
+sudo grep -E 'vagrant' /etc/shadow | awk -F ':' '{print $1}'
+sudo grep -E 'vagrant' /etc/shadow | awk -F ':' '{print $2}'
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007
+vim Punto_C.sh
+cd
+sudo grep -E 'vagrant' /etc/shadow | awk -F ',' '{print $1}
+
+
+pwd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+sudo groupadd p1c2_2024_gAlumno
+echo $?
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+sudo groupadd p1c2_2024_gProfesores
+echo $?
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+ls -la
+ll p1c2_2024_gProfesores
+rm -rf p1c2_2024_gProfesores
+echo $?
+rm -rf p1c2_2024_gAlumno
+echo $?
+ll
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+man passwd
+man etc/passwd
+etc/passwd --help
+man /etc/shadow
+man etc/shadow
+man shadow
+shadow --help
+etc/shadow --help
+sudo grep 'vagrant' /etc/shadow
+sudo grep 'vagrant' /etc/shadow | awk {print $1}
+sudo grep 'vagrant' /etc/shadow | awk '{print $1}'
+sudo grep 'vagrant' /etc/shadow | awk -F '{print $1}'
+sudo grep 'vagrant' /etc/shadow | awk -F ':' '{print $1}'
+sudo grep 'vagrant' /etc/shadow | awk -F ':' '{print $2}'
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh 
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Agrego creacion de grupos y usuarios"
+git push
+cd
+ls -l /etc/group
+ll /etc/group
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Agrego creacion de grupos y usuarios"
+git push
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+man passwd
+man etc/shadow
+man shadow
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Punto_C.sh"
+git push
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Finalizo y agrego Punto_C.sh"
+git push
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+touch --help
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+git add .
+git commit -m "ADD: Finalizo y agrego Punto_D.sh"
+git push
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+ll repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+history
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+ll /proc/meminfo
+/proc/meminfo --help
+sudo /proc/meminfo --help
+ls -l /proc/meminfo
+ls -l proc/meminfo
+man man
+man 8
+man man
+man meminfo
+meminfo --help
+where is meminfo
+whereis meminfo
+ll meminfo
+ls -l meminfo
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh 
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh 
+ll repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+ll repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+ls -l repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+ls -la repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+ls
+chmod +x Punto_E.sh
+echo $?
+./Punto_E.sh
+ls
+ll 
+cd ../
+cd RTA_ARCHIVOS_Examen_20241007/
+ll
+touch --help
+touch Filtro_Basico.txt
+echo $?
+ll
+chmod 775 Filtro_Basico.txt
+echo $?
+ll
+cd
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh 
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007$ ll
+/repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007$ ll
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+ll
+cat Filtro_Basico.txt
+cd
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/
+git status
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_E.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+git status
+git add .
+git commit -m "ADD: Finalizo y agrego Punto_E.sh; y creo Filtro_Basico.txt"
+git push
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+curl --version
+whereis sudo sh
+man sudo
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+md5sum --help
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+whoami
+sudo grep whoami | md5sum
+sudo grep whoami
+ps -ef
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+ll
+touch Filtro_Avanzado.txt
+echo $?
+ll
+chmod 775 Filtro_Avanzado.txt
+echo $?
+cd
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+ll
+cat Filtro_Avanzado.txt
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cat repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+ll
+cat Filtro_Avanzado.txt
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+cat Filtro_Avanzado.txt
+cd
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_ARCHIVOS_Examen_20241007/
+cat Filtro_Avanzado.txt
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_F.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+git status
+git add .
+git commit -m "ADD: Finalizo y agrego Punto_F.sh y creo el archivo Filtro_Avanzado.txt"
+git push
+cd
+repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_B.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+git status
+git add .
+git commit -m "FIX: Corrijo y completo Punto_B.sh"
+git push
+cd RTA_SCRIPT_Examen_20241007/
+git status
+cd ../
+git fetch
+git log HEAD..origin/master
+git log
+git pull
+git pull -f
+git fetch
+git pull
+git config pull.rebase false
+git pull
+git status
+git add .
+git commit -m "FIX: Corrijo y completo Punto_B.sh"
+git push
+cd
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_C.sh
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
+git status
+git add .
+git commit -m "FIX: Corrijo un permiso del alumno1 que estaba incorrecto con lo que pedia la consigna"
+git push
+cd
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+vim repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+./repogit/UTNFRA_SO_1P2C_2024_guidoginiger/RTA_SCRIPT_Examen_20241007/Punto_D.sh
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
+ls -l .bash_history/
+ls -l .bash_history
+cat .bash_history
+cd repogit/UTNFRA_SO_1P2C_2024_guidoginiger/
